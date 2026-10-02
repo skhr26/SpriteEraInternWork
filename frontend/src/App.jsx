@@ -16,7 +16,8 @@ function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="flex items-center justify-between px-6 md:px-8 py-4 border-b border-slate-200 bg-white sticky top-0 z-50">
+    <header className="border-b border-slate-200 bg-white sticky top-0 z-50">
+      <div className="w-full max-w-[1600px] mx-auto flex items-center justify-between px-6 md:px-12 lg:px-16 py-4">
       <Logo />
       <nav className="hidden md:flex gap-6 text-sm font-semibold uppercase tracking-wider text-slate-600">
         <a href="#" className="text-navy border-b-2 border-navy pb-1">Products</a>
@@ -40,6 +41,7 @@ function Header() {
           <i className={`fa-solid ${mobileMenuOpen ? 'fa-xmark' : 'fa-bars'}`}></i>
         </button>
       </div>
+      </div>
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
@@ -62,7 +64,7 @@ function Header() {
 function Hero() {
   return (
     <section className="bg-white border-b border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-12 lg:py-16">
+      <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 py-12 lg:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <div className="text-[10px] md:text-xs text-slate-500 uppercase tracking-widest mb-6 font-semibold flex flex-wrap items-center gap-2">
@@ -127,7 +129,7 @@ function Hero() {
 function StatsBanner() {
   return (
     <section className="bg-navy text-white">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 text-center lg:divide-x divide-blue-800/50">
+      <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 text-center lg:divide-x divide-blue-800/50">
         <div className="px-4">
           <div className="text-3xl font-bold text-white mb-2"><i className="fa-solid fa-bolt text-sm align-top mr-1 text-green"></i>150,000+</div>
           <div className="text-xs text-blue-200 uppercase tracking-wider font-semibold">Hours L90 Depreciation</div>
@@ -207,13 +209,13 @@ function Features() {
 
   return (
     <section className="bg-slate-50 border-b border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 lg:py-24">
+      <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 py-16 lg:py-24">
         <div className="mb-12">
           <div className="text-navy text-xs font-bold uppercase tracking-wider mb-4 flex items-center gap-2">
-            <div className="w-6 h-[2px] bg-navy"></div> Engineering Excellence
+            <i className="fa-solid fa-gear text-green"></i> ENGINEERING EXCELLENCE
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6">
-            <h2 className="text-3xl lg:text-4xl font-bold max-w-2xl text-slate-900">Forged at the Intersection of Optics & Structural Reliability</h2>
+            <h2 className="text-4xl md:text-5xl font-bold max-w-4xl text-slate-900">Forged at the Intersection of Optics & Structural Reliability</h2>
             <p className="text-slate-600 text-sm max-w-md lg:text-right">Every component is calculated to withstand elements, stress factors, extreme thermal differentials, and provide uncompromised luminosity delivery for decades.</p>
           </div>
         </div>
@@ -257,13 +259,13 @@ function CalibrateSpectrum() {
 
   return (
     <section className="bg-white border-b border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 lg:py-24">
+      <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 py-16 lg:py-24">
         <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col lg:flex-row">
           <div className="p-8 md:p-12 lg:w-1/2 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-slate-200">
             <div className="text-navy text-xs font-bold uppercase tracking-wider mb-4 flex items-center gap-2">
               <i className="fa-solid fa-sliders text-green"></i> INTERACTIVE SIMULATION
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">Calibrate Beam Angle &<br className="hidden sm:block"/>Kelvin Spectrum</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">Calibrate Beam Angle &<br className="hidden sm:block"/>Kelvin Spectrum</h2>
             <p className="text-slate-600 text-sm mb-8">Experience dynamic precision control over chromaticity point variables. Adjust target CCT to synchronize with sun-accents seamlessly expanding architectural spaces to glowing.</p>
             
             <div className="mb-6">
@@ -342,11 +344,11 @@ function Timeline() {
 
   return (
     <section className="bg-white border-b border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 lg:py-24 text-center">
-        <div className="text-navy text-xs font-bold uppercase tracking-wider mb-4">
+      <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 py-16 lg:py-24 text-center">
+        <div className="text-navy text-xs font-bold uppercase tracking-wider mb-4 flex justify-center items-center gap-2">
           <i className="fa-solid fa-industry text-green"></i> MANUFACTURING JOURNEY
         </div>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">From Raw Silicon & Ingot to Finished<br className="hidden sm:block"/>Architectural Masterpiece</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900">From Raw Silicon & Ingot to Finished<br className="hidden sm:block"/>Architectural Masterpiece</h2>
         <p className="text-slate-600 text-sm mb-16 px-4">Every luminaire undergoes a traceable five-stage transformation in our vertically integrated robotics facility.</p>
         
         <div className="relative flex flex-col md:flex-row justify-between items-center md:items-start mt-12 gap-8 md:gap-0">
@@ -387,13 +389,13 @@ function Benchmarks() {
 
   return (
     <section className="bg-slate-50 border-b border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-16 lg:py-24">
+      <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 py-16 lg:py-24">
         <div className="mb-12">
           <div className="text-navy text-xs font-bold uppercase tracking-wider mb-4 flex items-center gap-2">
-            <div className="w-6 h-[2px] bg-navy"></div> THE VAJRA DIFFERENCE
+            <i className="fa-solid fa-award text-green"></i> THE VAJRA DIFFERENCE
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6">
-            <h2 className="text-3xl md:text-4xl font-bold max-w-2xl text-slate-900">Uncompromising Benchmarks<br className="hidden sm:block"/>Setting the Industry Paradigm</h2>
+            <h2 className="text-4xl md:text-5xl font-bold max-w-4xl text-slate-900">Uncompromising Benchmarks<br className="hidden sm:block"/>Setting the Industry Paradigm</h2>
             <p className="text-slate-600 text-sm max-w-md lg:text-right">Strict protocols engineered into every fixture set standard benchmarks exceeding IEEE, WELL, and ASHRAE strict mandates.</p>
           </div>
         </div>
@@ -416,7 +418,7 @@ function Benchmarks() {
 function Footer() {
   return (
     <footer className="bg-navy border-t border-navyHover">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 pt-16 lg:pt-24 pb-12 text-center">
+      <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16 pt-16 lg:pt-24 pb-12 text-center">
         <div className="inline-flex items-center justify-center gap-2 px-4 py-2 border border-blue-800 bg-blue-900/30 rounded-full text-[10px] md:text-xs font-bold text-blue-200 mb-8">
           <i className="fa-solid fa-rocket text-green"></i> ELEVATE YOUR ARCHITECTURAL SPACE
         </div>
@@ -424,7 +426,7 @@ function Footer() {
           Built to Perform. Designed to Last.<br/>
           <span className="text-green">Supported to the End.</span>
         </h2>
-        <p className="text-blue-200 text-sm md:text-base max-w-2xl mx-auto mb-12 px-4">
+        <p className="text-blue-200 text-sm md:text-base max-w-4xl mx-auto mb-12 px-4">
           Whether you are illuminating iconic commercial skylines, state-of-the-art corporate headquarters, or luxury hospitality spaces, partner with Vajra LED for lighting engineering without compromise.
         </p>
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mb-12 lg:mb-16 w-full">
@@ -444,8 +446,8 @@ function Footer() {
           <span className="flex justify-center items-center gap-2"><i className="fa-solid fa-headset text-green"></i> 24/7 DEDICATED SPEC SUPPORT</span>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 text-center md:text-left border-t border-blue-800/50 pt-16">
-          <div className="md:col-span-2 lg:col-span-2 lg:pr-16 flex flex-col items-center md:items-start">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left border-t border-blue-800/50 pt-16">
+          <div className="md:col-span-1 lg:pr-8 flex flex-col items-center md:items-start">
             <div className="mb-6">
               <Logo isDark={true} />
             </div>
