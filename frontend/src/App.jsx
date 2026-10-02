@@ -19,7 +19,7 @@ function Header() {
     <header className="border-b border-slate-200 bg-white sticky top-0 z-50">
       <div className="w-full max-w-[1600px] mx-auto flex items-center justify-between px-6 md:px-12 lg:px-16 py-4">
       <Logo />
-      <nav className="hidden md:flex gap-6 text-sm font-semibold uppercase tracking-wider text-slate-600">
+      <nav className="hidden md:flex gap-4 lg:gap-6 text-xs font-semibold uppercase tracking-wider text-slate-600">
         <a href="#" className="text-navy border-b-2 border-navy pb-1">Products</a>
         <a href="#" className="hover:text-navy transition">Engineering</a>
         <a href="#" className="hover:text-navy transition">Standards</a>
@@ -28,7 +28,7 @@ function Header() {
         <a href="#" className="hover:text-navy transition">Contact</a>
       </nav>
       <div className="flex items-center gap-4">
-        <button className="hidden lg:block bg-navy hover:bg-navyHover text-white font-bold py-2 px-6 rounded text-sm transition shadow-sm">
+        <button className="hidden lg:block bg-navy hover:bg-navyHover text-white font-bold py-2 px-4 rounded text-xs transition shadow-sm whitespace-nowrap">
           REQUEST ARCHITECTURAL SPEC
         </button>
         <button className="hidden sm:flex w-10 h-10 rounded-full border border-slate-300 items-center justify-center text-slate-600 hover:bg-slate-100 transition">
