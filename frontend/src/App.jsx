@@ -215,7 +215,7 @@ function Features() {
             <i className="fa-solid fa-gear text-green"></i> ENGINEERING EXCELLENCE
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6">
-            <h2 className="text-4xl md:text-5xl font-bold max-w-4xl text-slate-900">Forged at the Intersection of Optics & Structural Reliability</h2>
+            <h2 className="text-4xl md:text-5xl font-bold max-w-4xl text-slate-900">Forged at the Intersection of Optics &<br className="hidden md:block"/>Structural Reliability</h2>
             <p className="text-slate-600 text-sm max-w-md lg:text-right">Every component is calculated to withstand elements, stress factors, extreme thermal differentials, and provide uncompromised luminosity delivery for decades.</p>
           </div>
         </div>
