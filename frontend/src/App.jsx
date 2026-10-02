@@ -70,7 +70,7 @@ function Hero() {
             <div className="text-[10px] md:text-xs text-slate-500 uppercase tracking-widest mb-6 font-semibold flex flex-wrap items-center gap-2">
               <i className="fa-solid fa-cube"></i> Products / Architectural / Industrial / Downlights
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6 text-slate-900">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6 text-slate-900">
               Engineered for Light. <span className="text-navy">Built for Trust.</span>
             </h1>
             <p className="text-slate-600 text-base md:text-lg mb-8 leading-relaxed max-w-lg">
@@ -215,7 +215,7 @@ function Features() {
             <i className="fa-solid fa-gear text-green"></i> ENGINEERING EXCELLENCE
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6">
-            <h2 className="text-4xl md:text-5xl font-bold max-w-4xl text-slate-900">Forged at the Intersection of Optics &<br className="hidden md:block"/>Structural Reliability</h2>
+            <h2 className="text-3xl md:text-4xl font-bold max-w-4xl text-slate-900">Forged at the Intersection of Optics &<br className="hidden md:block"/>Structural Reliability</h2>
             <p className="text-slate-600 text-sm max-w-md lg:text-right">Every component is calculated to withstand elements, stress factors, extreme thermal differentials, and provide uncompromised luminosity delivery for decades.</p>
           </div>
         </div>
@@ -265,7 +265,7 @@ function CalibrateSpectrum() {
             <div className="text-navy text-xs font-bold uppercase tracking-wider mb-4 flex items-center gap-2">
               <i className="fa-solid fa-sliders text-green"></i> INTERACTIVE SIMULATION
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">Calibrate Beam Angle &<br className="hidden sm:block"/>Kelvin Spectrum</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900">Calibrate Beam Angle &<br className="hidden sm:block"/>Kelvin Spectrum</h2>
             <p className="text-slate-600 text-sm mb-8">Experience dynamic precision control over chromaticity point variables. Adjust target CCT to synchronize with sun-accents seamlessly expanding architectural spaces to glowing.</p>
             
             <div className="mb-6">
@@ -348,7 +348,7 @@ function Timeline() {
         <div className="text-navy text-xs font-bold uppercase tracking-wider mb-4 flex justify-center items-center gap-2">
           <i className="fa-solid fa-industry text-green"></i> MANUFACTURING JOURNEY
         </div>
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900">From Raw Silicon & Ingot to Finished<br className="hidden sm:block"/>Architectural Masterpiece</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">From Raw Silicon & Ingot to Finished<br className="hidden sm:block"/>Architectural Masterpiece</h2>
         <p className="text-slate-600 text-sm mb-16 px-4">Every luminaire undergoes a traceable five-stage transformation in our vertically integrated robotics facility.</p>
         
         <div className="relative flex flex-col md:flex-row justify-between items-center md:items-start mt-12 gap-8 md:gap-0">
@@ -395,7 +395,7 @@ function Benchmarks() {
             <i className="fa-solid fa-award text-green"></i> THE VAJRA DIFFERENCE
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6">
-            <h2 className="text-4xl md:text-5xl font-bold max-w-4xl text-slate-900">Uncompromising Benchmarks<br className="hidden sm:block"/>Setting the Industry Paradigm</h2>
+            <h2 className="text-3xl md:text-4xl font-bold max-w-4xl text-slate-900">Uncompromising Benchmarks<br className="hidden sm:block"/>Setting the Industry Paradigm</h2>
             <p className="text-slate-600 text-sm max-w-md lg:text-right">Strict protocols engineered into every fixture set standard benchmarks exceeding IEEE, WELL, and ASHRAE strict mandates.</p>
           </div>
         </div>
